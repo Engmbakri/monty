@@ -84,10 +84,10 @@ void find_func(char *opcode, char *value, int line_num, int form)
 	int flg;
 
 	instruction_t func_list[] = {
-		{"push", add_to_stack},
-		{"pall", print_stack},
-		{"pint", print_top},
-		{"pop", pop_top},
+		{"push", adding_tostack},
+		{"pall", printstack},
+		{"pint", top_print},
+		{"pop", pop_element},
 		{"nop", nop},
 		{"swap", swaping_nd},
 		{"add", addition_nd},

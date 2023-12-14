@@ -50,14 +50,14 @@ void find_func(char *opcode, char *value, int line_number, int format);
 
 stack_t *create_node(int n);
 void free_nodes(void);
-void print_stack(stack_t **, unsigned int);
-void add_to_stack(stack_t **, unsigned int);
+void printstack(stack_t **, unsigned int);
+void adding_tostack(stack_t **, unsigned int);
 void add_to_queue(stack_t **, unsigned int);
 
 void call_fun(op_func, char *, char *, int, int);
 
-void print_top(stack_t **, unsigned int);
-void pop_top(stack_t **, unsigned int);
+void top_print(stack_t **, unsigned int);
+void pop_element(stack_t **, unsigned int);
 void nop(stack_t **, unsigned int);
 void swaping_nd(stack_t **, unsigned int);
 
